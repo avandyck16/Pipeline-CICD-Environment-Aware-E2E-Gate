@@ -173,6 +173,13 @@ This ensures that the artifact being validated corresponds to the environment it
 
 The Build stage now determines which build configuration to execute based on the branch being processed.
 
+### Branch-Based Deployment
+
+| Merge target | Build | Cypress            | Deploy |
+| ------------ | ----- | ------------------ | ------ |
+| `dev`        | DEV   | DEV configuration  | DEV    |
+| `main`       | PROD  | PROD configuration | PROD   |
+
 ```yaml
 - script: npm run build:dev
   displayName: "Build (dev)"
