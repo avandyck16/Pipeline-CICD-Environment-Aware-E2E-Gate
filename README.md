@@ -26,7 +26,6 @@ The pipeline was therefore redesigned so that the build, Cypress configuration, 
 
 ---
 
-Sí. Para este case study, considerando que queremos mantenerlo **compacto y fácil de navegar**, usaría este índice:
 
 ## Table of Contents
 
